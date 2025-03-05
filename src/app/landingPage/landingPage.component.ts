@@ -7,7 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     imports: [NavbarComponent],
     template: /*html*/`
     <section>
-        <app-navbar></app-navbar>
+        <div>
+            <app-navbar></app-navbar>
+        </div>
         <h1 class="fontRaleway">SAKURA RAMEN</h1>
         <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
     </section>
