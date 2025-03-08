@@ -1,0 +1,18 @@
+section {
+    padding: 64px 192px;
+    background-color: #0a141e;
+    display: flex;
+    justify-content: space-between;
+
+    >img {
+        height: 64px;
+    }
+
+    >div {
+        display: flex;
+        gap: 24px;
+        >img {
+            height: 48px;
+        }
+    }
+}
