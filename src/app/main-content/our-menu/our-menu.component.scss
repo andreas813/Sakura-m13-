@@ -1,3 +1,7 @@
+@mixin colorTest($color) {
+    color: $color;
+}
+
 section {
     padding: 192px 0;
     display: flex;
@@ -9,7 +13,7 @@ section {
 
     >h1 {
         font-size: 112px;
-        color: #9f0908;
+        @include colorTest(#9f0908);
     }
 
     >div {
@@ -29,7 +33,7 @@ section {
                 width: 512+32px;
                 font-size: 40px;
                 font-weight: 700;
-                color: #675e54;
+                @include colorTest(#675e54);
             }
         }
     }

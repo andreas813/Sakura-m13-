@@ -3,16 +3,33 @@ section {
     background-color: #0a141e;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    >img {
-        height: 64px;
+    >a {
+        font-size: 40px;
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+        font-family: Raleway;
+
+
+        &:hover {
+            color: red;
+        }
+
+        >img {
+            height: 64px;
+        }
     }
 
     >div {
-        display: flex;
-        gap: 24px;
-        >img {
-            height: 48px;
+        >a {
+            display: flex;
+            gap: 24px;
+
+            >img {
+                height: 48px;
+            }
         }
     }
 }
